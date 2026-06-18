@@ -18,7 +18,7 @@ public class LatihanMandiri3 {
             // Hapus dengan method delete()
             berkasSementara.delete();
             
-            //  status berkas sesudah dihapus
+            //  status  berkas sesudah dihapus
             System.out.println("Sesudah dihapus, ada? " + berkasSementara.exists());
             
         } catch (IOException e) {
